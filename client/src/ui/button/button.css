@@ -1,0 +1,53 @@
+.button {
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.button.default {
+    line-height: 24px;
+    padding: 12px 16px;
+}
+
+.button.small {
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 6px 11px;
+}
+
+.button.middle {
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 24px;
+}
+
+
+.button.block {
+    display: block;
+    width: 100%;
+}
+
+.button.outline {
+    padding: 6px 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    min-width: 88px;
+    background: none;
+}
+
+.button.blue {
+    background: linear-gradient(180deg, #3EAEFF 0%, #00AAE0 100%);
+    box-shadow: 0px 0px 0px 3px rgba(0, 170, 224, 0.19);
+}

@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 108px;
+    width: 100%;
+}
+
+.title {
+    font-weight: 700;
+    margin-bottom: 42px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.close {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.form {
+    padding: 32px;
+}
+
+.label {
+    margin-bottom: 10px;
+    color: #9aa5be;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.field {
+    margin-bottom: 24px;
+}
+
+.field:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+    width: 120px;
+}

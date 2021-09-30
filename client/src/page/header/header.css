@@ -1,0 +1,17 @@
+.container {
+    background: linear-gradient(180deg, #1F252F 0%, #27303E 100%);
+    position: sticky;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.logo {
+    width: 186px;
+    height: 36px;
+}
+
+.action {
+    margin-left: auto;
+}

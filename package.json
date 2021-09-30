@@ -1,0 +1,20 @@
+{
+  "name": "mango_deals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "(cd client && yarn)",
+    "start": "(cd client && yarn dev)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/artemvelesov/mango_deals.git"
+  },
+  "author": "Artem Konovalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemvelesov/mango_deals/issues"
+  },
+  "homepage": "https://github.com/artemvelesov/mango_deals#readme"
+}

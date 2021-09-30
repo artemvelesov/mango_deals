@@ -1,0 +1,15 @@
+.layout {
+    display: grid;
+    position: relative;
+    grid-template-rows: 60px 1fr;
+    min-height: 100vh;
+}
+
+.content {
+
+}
+
+.chart {
+    height: 286px;
+    background: linear-gradient(180deg, #1E2530 0%, #293341 100%);
+}

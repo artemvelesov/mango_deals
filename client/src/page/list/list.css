@@ -1,0 +1,18 @@
+.icon {
+    position: absolute;
+    top: 11px;
+    cursor: pointer;
+}
+
+.value {
+    color: #CAD3E8;
+    font-weight: 700;
+}
+
+.date {
+    color: #9AA5BE;
+}
+
+.active {
+    color: #FFFFFF;
+}
